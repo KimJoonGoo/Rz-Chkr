@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from config import BOT_TOKEN, RAZORPAY_KEY, RAZORPAY_SECRET, ADMIN_ID
 
 api_id = 12345678
-api_hash = "dummy_hash"
+api_hash = "0148f18095a6ef0964e84eac46f1fae1"
 
 app = Client("rz_checker_bot", bot_token=BOT_TOKEN, api_id=api_id, api_hash=api_hash)
 
