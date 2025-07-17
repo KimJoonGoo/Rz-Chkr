@@ -1,10 +1,17 @@
 import json
 import aiohttp
-from pyrogram import Client, filters
-from config import BOT_TOKEN, RAZORPAY_KEY, RAZORPAY_SECRET, ADMIN_ID
+from pyrogram import Client
 
-api_id = 12345678
-api_hash = "0148f18095a6ef0964e84eac46f1fae1"
+api_id = 24731793  # your real one
+api_hash = "0148f18095a6ef0964e84eac46f1fae1"  # your real one
+bot_token = "8047243030:AAFD96sgHDN5rWZf_W5MAPXEQQDKKuTKBvA"  # your bot token
+
+app = Client(
+    "my_bot",
+    api_id=api_id,
+    api_hash=api_hash,
+    bot_token=bot_token
+)
 
 app = Client("rz_checker_bot", bot_token=BOT_TOKEN, api_id=api_id, api_hash=api_hash)
 
